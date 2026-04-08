@@ -1,0 +1,16 @@
+[project]
+name = "movie-env"
+version = "1.0.0"
+description = "Movie recommendation OpenEnv environment"
+authors = [
+  { name = "Venkatesh" }
+]
+
+dependencies = [
+  "flask",
+  "pydantic"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
