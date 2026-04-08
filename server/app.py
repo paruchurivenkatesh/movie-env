@@ -28,3 +28,7 @@ def step():
 
 def run():
     app.run(host="0.0.0.0", port=7860)
+
+# 🔥 ADD THIS
+if __name__ == "__main__":
+    run()
