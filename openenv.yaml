@@ -1,10 +1,10 @@
-name: movie-recommendation-env
-description: AI agent learns to recommend movies based on user preferences
+name: movie-env
 version: 1.0
 
-entry_point: env:MovieEnv
+entrypoint: app.py
 
-tasks:
-  - easy
-  - medium
-  - hard
+description: Movie recommendation OpenEnv environment
+
+endpoints:
+  reset: /reset
+  step: /step
