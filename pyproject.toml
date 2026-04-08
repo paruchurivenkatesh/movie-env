@@ -2,14 +2,16 @@
 name = "movie-env"
 version = "1.0.0"
 description = "Movie recommendation OpenEnv environment"
-authors = [
-  { name = "Venkatesh" }
-]
+authors = [{ name = "Venkatesh" }]
 
 dependencies = [
   "flask",
-  "pydantic"
+  "pydantic",
+  "openenv-core>=0.2.0"
 ]
+
+[project.scripts]
+server = "server.app:run"
 
 [build-system]
 requires = ["setuptools"]
