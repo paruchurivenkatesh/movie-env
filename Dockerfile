@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install uv
-RUN uv sync
+RUN pip install -r requirements.txt
 
-CMD ["server"]
+CMD ["python", "server/app.py"]
