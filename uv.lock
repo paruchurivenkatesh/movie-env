@@ -1,0 +1,13 @@
+version = 1
+
+[[package]]
+name = "flask"
+version = "3.0.0"
+
+[[package]]
+name = "pydantic"
+version = "2.7.0"
+
+[[package]]
+name = "openenv-core"
+version = "0.2.0"
