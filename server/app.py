@@ -26,9 +26,10 @@ def step():
         "done": state["step"] > 2
     })
 
-def run():
+# ✅ REQUIRED FUNCTION
+def main():
     app.run(host="0.0.0.0", port=7860)
 
-# 🔥 ADD THIS
+# ✅ REQUIRED ENTRY POINT
 if __name__ == "__main__":
-    run()
+    main()
