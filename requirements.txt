@@ -2,3 +2,5 @@ pydantic
 openai
 fastapi
 uvicorn
+flask
+pydantic
