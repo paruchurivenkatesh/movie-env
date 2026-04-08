@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD ["sh", "-c", "python inference.py && tail -f /dev/null"]
+CMD ["python", "app.py"]
